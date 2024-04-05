@@ -1,8 +1,12 @@
 import React from 'react'
+import PlayerCardDisplay from '../../components/PlayerCardDisplay/PlayerCardDisplay'
 
 const Homepage = () => {
     return (
-        <div>Homepage</div>
+        <div>
+            Homepage
+            <PlayerCardDisplay />
+        </div>
     )
 }
 
