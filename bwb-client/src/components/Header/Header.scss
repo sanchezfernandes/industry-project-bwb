@@ -1,0 +1,17 @@
+.header {
+
+
+    &__pre {
+        display: flex;
+        flex-direction: row;
+        height: 135px;
+        align-items: end;
+        background-image: url('../../assets/svg/Preheader.png');
+    }
+    
+    &__btn {
+        height: 40px;
+        margin: 20px;
+
+    }
+}
