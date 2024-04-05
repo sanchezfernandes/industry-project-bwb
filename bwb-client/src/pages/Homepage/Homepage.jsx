@@ -9,9 +9,8 @@ const Homepage = () => {
     
   return (
     <main className="container">
-       <PlayerCardDisplay />
-
       <img src={BWBBanner} alt="Image url src" />
+      <PlayerCardDisplay />
       <img src={Section} alt="Image url src" />
       <img src={MapBanner} alt="Image url src" />
       <img src={FooterBanner} alt="Image url src" />

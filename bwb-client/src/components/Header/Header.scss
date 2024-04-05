@@ -1,3 +1,7 @@
+@use "../../styles/partials/variables" as * ;
+@use "../../styles/partials/mixins" as * ;
+@use "../../styles/partials/typograpgy" as * ;
+
 .header {
 
 
@@ -5,13 +9,81 @@
         display: flex;
         flex-direction: row;
         height: 135px;
+        justify-content: space-between;
         align-items: end;
         background-image: url('../../assets/svg/Preheader.png');
+    }
+
+    &__next  {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__next-column{
+        display: flex;
+        flex-direction: row;
     }
     
     &__btn {
         height: 40px;
         margin: 20px;
 
+        :hover {
+            overflow: auto;
+        }
     }
+
+
+
+    &__add-stream {
+        margin: 12px;
+    }
+
+    &__next_stream {
+        padding: 0 40px;
+    }
+
+    &__text {
+        margin: 27px;
+    }
+
+    &__btn-pass {
+        margin: 0 30px;
+    }
+
+    &__nav {
+        display: flex;
+        align-items: center;
+        background-color: $secondary-color-darkblack;
+        padding: 20px;
+    }
+    &__logo {
+        width: 250px;
+        margin-left: 25px;
+    }
+
+    &__search {
+        margin-left: 45px;
+    }
+
+    &__nav-ul {
+        display: flex;
+        flex-direction: row;
+        text-decoration: none;
+        list-style: none;
+    }
+
+    &__nav-li {
+        margin: 12px;
+    }
+
+    &__nav-p {
+        color: white;
+        font-family: "Roboto";
+        text-transform: uppercase;
+    }
+
+
+
 }
+
