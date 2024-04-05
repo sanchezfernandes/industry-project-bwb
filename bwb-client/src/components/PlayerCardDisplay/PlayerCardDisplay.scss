@@ -1,18 +1,26 @@
+@use "../../styles/partials/variables" as *;
+
 .cardDisplay {
-    height: 35vh;
-    border: 1px solid black;
+    height: 350px;
+    // border: 1px solid black;
     position: relative;
+}
+
+.sectionTitle {
+    padding: 15px 0px 10px 0px;
 }
 
 .scroll {
     display: flex;
     position: absolute;
-
+    bottom: 20%;
+    left: 40%
 }
 
 .redDiv {
-    background-color: rgb(185, 51, 51);
+    background-color: $primary-color-red;
     border-radius: 10px;
-    height: 300px;
-    width: 850px;
+    height: 250px;
+    width: 800px;
+    margin-left: 32px;
 }

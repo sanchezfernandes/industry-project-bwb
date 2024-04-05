@@ -1,3 +1,5 @@
+@use "../../styles/partials/variables" as *;
+
 .playerCard {
     border: 1px solid red;
     height: 180px;
@@ -5,6 +7,8 @@
     margin: 0px 20px;
     text-align: center;
     position: relative;
+    // background: linear-gradient(#e66465, #9198e5);
+    background-image: linear-gradient(to right, rgb(16, 16, 36), $primary-nba-blue);
 
     &__info {
         border: 1px solid green;
