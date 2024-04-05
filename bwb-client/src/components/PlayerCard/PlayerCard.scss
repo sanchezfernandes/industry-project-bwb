@@ -11,10 +11,11 @@
     background-image: linear-gradient(to right, rgb(16, 16, 36), $primary-nba-blue);
 
     &__info {
-        border: 1px solid green;
+        // border: 1px solid green;
         position: absolute;
         bottom: 5%;
-        background-color: antiquewhite;
+        background-color: $primary-nba-blue;
+        color: $secondary-color-mercury;
         width: 100%;
     }
 }
