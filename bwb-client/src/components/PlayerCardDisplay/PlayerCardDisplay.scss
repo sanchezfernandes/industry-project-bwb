@@ -1,0 +1,31 @@
+@use "../../styles/partials/variables" as *;
+
+.cardDisplay {
+    height: 350px;
+    // border: 1px solid black;
+    position: relative;
+    box-sizing: border-box;
+    padding-bottom: 32px;
+}
+
+.sectionTitle {
+    padding: 15px 32px 10px 32px;
+}
+
+.scroll {
+    display: flex;
+    bottom: 20%;
+    left: 40%;
+    overflow: auto;
+    margin-top: -200px;
+    margin-left: 550px;
+}
+
+.redDiv {
+    background-color: $primary-color-red;
+    border-radius: 10px;
+    height: 250px;
+    width: 800px;
+    margin-left: 32px;
+    object-fit: contain;
+}

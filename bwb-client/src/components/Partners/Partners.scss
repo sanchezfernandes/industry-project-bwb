@@ -1,0 +1,29 @@
+@use "../../styles/partials/variables" as *;
+
+.partnersSection {
+    padding: 70px 32px 16px 32px;
+}
+
+.partners {
+    display: flex;
+    justify-content: space-between;
+}
+
+.partnerImg {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.partnerTitle {
+    margin-bottom: 10vh;
+    width: 50vw;
+}
+
+.button {
+    width: 180px;
+    height: 40px;
+    background-color: $secondary-color-darkblack;
+    color: $secondary-color-mercury;
+    border-style: none;
+}

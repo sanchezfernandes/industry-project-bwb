@@ -1,17 +1,49 @@
+@use "../../styles/partials/variables" as * ;
+@use "../../styles/partials/mixins" as * ;
+@use "../../styles/partials/typograpgy" as * ;
+
 .header {
 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
 
-    &__pre {
+    &__nav {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        background-color: $secondary-color-darkblack;
+        padding: 20px;
+    }
+    &__logo {
+        width: 250px;
+        margin-left: 25px;
+    }
+
+    &__search {
+        margin-left: 45px;
+    }
+
+    &__nav-ul {
         display: flex;
         flex-direction: row;
-        height: 135px;
-        align-items: end;
-        background-image: url('../../assets/svg/Preheader.png');
+        text-decoration: none;
+        list-style: none;
     }
-    
-    &__btn {
-        height: 40px;
-        margin: 20px;
 
+    &__nav-li {
+        margin: 12px;
     }
+
+    &__nav-p {
+        color: white;
+        font-family: "Roboto";
+        text-transform: uppercase;
+    }
+
+
+
 }
+

@@ -1,0 +1,30 @@
+@use "../../styles/partials/variables" as *;
+
+.mainLegacy {
+    background-color: $secondary-color-darkblack;
+}
+
+.legacyTitle {
+    color: $secondary-color-mercury;
+    padding: 40px 32px 0 32px;
+}
+
+.legacySection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player {
+    width: 700px;
+    height: 427px;
+    margin: 50px 25px;
+    object-fit: contain;
+}
+
+.text {
+    width: 500px;
+    height: 400px;
+    margin: 50px 25px;
+
+}
