@@ -1,12 +1,13 @@
 @use "../../styles/partials/variables" as *;
 
 .playerCard {
-    border: 1px solid red;
+    border: 1px solid $secondary-color-mercury;
     height: 180px;
     width: 260px;
     margin: 0px 20px;
     text-align: center;
     position: relative;
+    border-radius: 12px;
     // background: linear-gradient(#e66465, #9198e5);
     background-image: linear-gradient(to right, rgb(16, 16, 36), $primary-nba-blue);
 
