@@ -1,0 +1,16 @@
+.playerCard {
+    border: 1px solid red;
+    height: 180px;
+    width: 260px;
+    margin: 0px 20px;
+    text-align: center;
+    position: relative;
+
+    &__info {
+        border: 1px solid green;
+        position: absolute;
+        bottom: 5%;
+        background-color: antiquewhite;
+        width: 100%;
+    }
+}
