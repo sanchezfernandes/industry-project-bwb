@@ -4,54 +4,14 @@
 
 .header {
 
-
-    &__pre {
-        display: flex;
-        flex-direction: row;
-        height: 135px;
-        justify-content: space-between;
-        align-items: end;
-        background-image: url('../../assets/svg/Preheader.png');
-    }
-
-    &__next  {
-        display: flex;
-        flex-direction: column;
-    }
-
-    &__next-column{
-        display: flex;
-        flex-direction: row;
-    }
-    
-    &__btn {
-        height: 40px;
-        margin: 20px;
-
-        :hover {
-            overflow: auto;
-        }
-    }
-
-
-
-    &__add-stream {
-        margin: 12px;
-    }
-
-    &__next_stream {
-        padding: 0 40px;
-    }
-
-    &__text {
-        margin: 27px;
-    }
-
-    &__btn-pass {
-        margin: 0 30px;
-    }
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
 
     &__nav {
+        width: 100%;
         display: flex;
         align-items: center;
         background-color: $secondary-color-darkblack;

@@ -10,12 +10,12 @@ function App() {
   return (
     <>
       <Header />
+      <Footer />
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Homepage />} />
         </Routes>
       </BrowserRouter>
-      <Footer />
     </>
   )
 }

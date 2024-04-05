@@ -1,0 +1,55 @@
+@use "../../styles/partials/variables" as * ;
+@use "../../styles/partials/mixins" as * ;
+@use "../../styles/partials/typograpgy" as * ;
+
+.footer {
+    margin-top: 100px;
+
+    &__pre {
+
+        display: flex;
+        flex-direction: row;
+        height: 135px;
+        justify-content: space-between;
+        align-items: end;
+        background-image: url('../../assets/svg/Preheader.png');
+    }
+
+    &__next  {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__next-column{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    &__btn {
+        height: 40px;
+        margin: 20px;
+
+        :hover {
+            overflow: auto;
+        }
+    }
+
+
+
+    &__add-stream {
+        margin: 12px 20px;
+    }
+
+    &__next_stream {
+        padding: 8px 40px;
+    }
+
+    &__text {
+        margin: 27px;
+    }
+
+    &__btn-pass {
+        margin: 0 30px;
+    }
+
+}
