@@ -5,6 +5,7 @@
     // border: 1px solid black;
     position: relative;
     box-sizing: border-box;
+    padding-bottom: 32px;
 }
 
 .sectionTitle {
@@ -17,7 +18,7 @@
     left: 40%;
     overflow: auto;
     margin-top: -200px;
-    margin-left: 200px;
+    margin-left: 550px;
 }
 
 .redDiv {
@@ -26,4 +27,5 @@
     height: 250px;
     width: 800px;
     margin-left: 32px;
+    object-fit: contain;
 }

@@ -10,10 +10,11 @@ const PlayerCard = ({ name, region, image }) => {
                 <div className='playerCard__info'>
                     <h3>{name}</h3>
                     <p>{region}</p>
-                    <div>
-                        <Link to="">Player Info</Link>
-                    </div>
                 </div>
+                <div className='link'>
+                    <Link className='link__item' to="">Player Info</Link>
+                </div>
+
             </div>
         </main>
     );
