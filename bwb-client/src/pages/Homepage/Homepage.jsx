@@ -5,6 +5,7 @@ import FooterBanner from "../../assets/svg/Footer.png";
 import Section from "../../assets/svg/Section.png";
 import PlayerCardDisplay from "../../components/PlayerCardDisplay/PlayerCardDisplay";
 import Partners from "../../components/Partners/Partners";
+import Legacy from "../../components/Legacy/Legacy";
 import Highlights from "../../components/Highlights/Highlights";
 
 const Homepage = () => {
@@ -15,6 +16,7 @@ const Homepage = () => {
       <div>
         <PlayerCardDisplay />
         <Partners />
+                <Legacy />
       </div>
 
       <img src={Section} alt="Image url src" />
