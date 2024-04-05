@@ -10,8 +10,12 @@ const PlayerCardDisplay = () => {
     const playerData = [
         { name: 'AZOULAS TUBELIS', image: <img src={Azoulas} alt="Azoulas" />, region: 'EUROPE 2019, Global 2020' },
         { name: 'CHARLES BEDAIKO', image: <img src={Charles} alt="Charles" />, region: 'Global 2020' },
-        // { name: 'LINDELL WIGGINTON', image: <img src={Lindell} alt="Lindell" />, region: 'GLOBAL 2016' },
-        // { name: 'ADAMA SANAGO', image: <img src={Adama} alt="Adama" />, region: 'GLOBAL 2020' },
+        { name: 'LINDELL WIGGINTON', image: <img src={Lindell} alt="Lindell" />, region: 'GLOBAL 2016' },
+         { name: 'ADAMA SANAGO', image: <img src={Adama} alt="Adama" />, region: 'GLOBAL 2020' },
+         { name: 'AZOULAS TUBELIS', image: <img src={Azoulas} alt="Azoulas" />, region: 'EUROPE 2019, Global 2020' },
+        { name: 'CHARLES BEDAIKO', image: <img src={Charles} alt="Charles" />, region: 'Global 2020' },
+        { name: 'LINDELL WIGGINTON', image: <img src={Lindell} alt="Lindell" />, region: 'GLOBAL 2016' },
+         { name: 'ADAMA SANAGO', image: <img src={Adama} alt="Adama" />, region: 'GLOBAL 2020' },
     ];
 
     return (

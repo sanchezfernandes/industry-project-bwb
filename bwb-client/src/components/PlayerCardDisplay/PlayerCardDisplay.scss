@@ -4,6 +4,7 @@
     height: 350px;
     // border: 1px solid black;
     position: relative;
+    box-sizing: border-box;
 }
 
 .sectionTitle {
@@ -12,9 +13,11 @@
 
 .scroll {
     display: flex;
-    position: absolute;
     bottom: 20%;
-    left: 40%
+    left: 40%;
+    overflow: auto;
+    margin-top: -200px;
+    margin-left: 200px;
 }
 
 .redDiv {
