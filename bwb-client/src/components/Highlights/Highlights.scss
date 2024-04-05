@@ -1,0 +1,43 @@
+@use "../../styles/partials/variables" as * ;
+@use "../../styles/partials/mixins" as * ;
+@use "../../styles/partials/typograpgy" as * ;
+
+.cont {
+    display: flex;
+    height: 550px;
+    background-color: #1D428A;
+    background-image: url('../../assets/svg/bk1.png');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    align-items: center;
+    position: relative;
+
+    &__abs {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+
+    &__icon {
+        width: 550px;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+
+
+    &__hori {
+        display: flex;
+        flex-direction: row;
+        overflow: auto;
+        margin-left: 150px;
+    }
+
+    &__pp {
+        width: 300px;
+        border-radius: 10px;
+        border: 1px solid $secondary-color-mercury;
+        margin: 12px;
+    }
+
+
+}
